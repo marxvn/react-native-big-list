@@ -986,7 +986,7 @@ class BigList extends PureComponent {
     );
 
     const scrollView = wrapper(
-      <ScrollView {...scrollViewProps}>{this.renderItems()}</ScrollView>,
+      <Animated.ScrollView {...scrollViewProps}>{this.renderItems()}</Animated.ScrollView>,
     );
 
     const scrollStyle = mergeViewStyle(
